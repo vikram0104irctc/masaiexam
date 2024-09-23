@@ -12,7 +12,7 @@ export const Home = ()=>{
   let dispatch = useDispatch()
 
   useEffect(()=>{
-    axios.get("http://localhost:9000/students", {
+    axios.get("https://evalmasai.onrender.com/students", {
       headers :{
         token : token
       }

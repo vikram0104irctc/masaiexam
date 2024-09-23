@@ -21,7 +21,7 @@ export const Signup = ()=>{
       role,
       school_id
     }
-    axios.post("http://localhost:9000/admins",obj)
+    axios.post("https://evalmasai.onrender.com/admins",obj)
     .then(()=>{
       alert("Register Succes")
       navigate("/login")
